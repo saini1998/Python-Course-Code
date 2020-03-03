@@ -1,0 +1,9 @@
+pipenv install django==2.1
+python3 manage.py runserver
+
+
+directories movies and vidly 
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py sqlmigrate movies 0001
